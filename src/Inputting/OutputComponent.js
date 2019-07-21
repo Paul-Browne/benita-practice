@@ -1,7 +1,7 @@
 import React from 'react';
 
-function OutputComponent(props) {
-  return <h1>The user inputted, {props.text}</h1>;
+const OutputComponent = (props) => {
+  return <h1>{props.text}</h1>;
 }
 
-export default OutputComponent
+export default OutputComponent;
