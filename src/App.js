@@ -1,11 +1,14 @@
 import React from 'react';
-import Inputting from './Inputting/Main';
+
+// import Inputting from './Inputting/Main'; 
+import PersonPhoneBook from './PersonPhoneBook/Main';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <Inputting />
+      {/*<Inputting />*/}
+      <PersonPhoneBook />
     </div>
   );
 }
